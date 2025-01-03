@@ -33,6 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           cat /etc/os-release
-          curl https://ip.reclaim.hosting
-          curl https://ip.jadin.me
+          curl https://icanhazip.com
           ping -c 4 159.65.171.34
