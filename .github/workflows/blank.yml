@@ -28,9 +28,11 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo "-- IP Address --"
+          echo "IP Address:"
           curl -s https://icanhazip.com
-          echo "----------------"
+          echo "Visit https://nathanmichalewicz.org"
           curl --head -s https://nathanmichalewicz.org
+          echo "ping google.com"
+          ping google.com
+          echo "ping nathanmichalewicz.org"
           ping nathanmichalewicz.org
-          ping frogger.reclaimhosting.com
