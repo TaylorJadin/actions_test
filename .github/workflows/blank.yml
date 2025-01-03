@@ -31,4 +31,6 @@ jobs:
           echo "-- IP Address --"
           curl -s https://icanhazip.com
           echo "----------------"
-          curl --head -s https://nathanmichalewicz.org/
+          curl --head -s https://nathanmichalewicz.org
+          ping nathanmichalewicz.org
+          ping frogger.reclaimhosting.com
